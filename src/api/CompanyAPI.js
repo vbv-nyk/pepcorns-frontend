@@ -65,7 +65,7 @@ const companies = [{
                 title: "The existing meat supply ecosystem has multiple challenges",
                 contents: ["Only profitable D2C brand in meats in India with a high return on capital efficiency.", "Backed by prolific angel investors like Amit Burman (Dabur chairman), SIDBI VC, Jitendra Gupta of Jupiter, Om Manchanda MD of Dr. Lal path lab, and many others.", "100% farm-integrated supply chain to bring transparency and traceability of fresh chicken, mutton, fish, and Seafood.", "Started by Deepanshu Manchanda who  conceptualising the category of meats by co-founding Licious the first D2C brand of meats", "Technology-enabled businesses focusing on end to end farm to fork"],
                 imageURLs: ["https://ucarecdn.com/587800c6-340f-4330-a186-23fef8798de7/WemakeSkincareIntelligent101.png", "https://ucarecdn.com/16964edd-e771-4538-a964-fdc840d88882/WemakeSkincareIntelligent102.png", "https://ucarecdn.com/6b3443bf-ac22-41d4-b3ac-92639075c6df/WemakeSkincareIntelligent103.png"]
-            }
+            },
         ]
     },
     details: {
