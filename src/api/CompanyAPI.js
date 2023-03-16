@@ -128,6 +128,18 @@ const companies = [{
             rewards: ["Be part of our growth sucess", "Special offer deals for you on our platform"],
             tnc: ["An exclusive subscription depends on your order volume.", "Just another condition"],
             type: "SAFE"
+        },
+        {
+            price: "5000",
+            rewards: ["Be part of our growth sucess", "Special offer deals for you on our platform"],
+            tnc: ["An exclusive subscription depends on your order volume.", "Just another condition"],
+            type: "SAFE"
+        },
+        {
+            price: "5000",
+            rewards: ["Be part of our growth sucess", "Special offer deals for you on our platform"],
+            tnc: ["An exclusive subscription depends on your order volume.", "Just another condition"],
+            type: "SAFE"
         }
     ]
 },

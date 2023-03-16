@@ -1,6 +1,6 @@
 export default function Event({ investors, dateStart, dateEnd, length, goal }) {
     const daysLeft = new Date(dateStart).getUTCDate() - new Date().getUTCDate();
-    return (<section className="flex bg-slate-100 w-fit p-5 items-baseline gap-3 justify-around sm:gap-10 text-center flex-wrap">
+    return (<section className="flex col-start-1 col-end-3 row-start-2 row-end-3 bg-slate-100 w-fit p-5 items-baseline gap-3 justify-around sm:gap-10 text-center flex-wrap ">
         <div className="flex flex-col">
             <div >{"Goal"}</div>
             <div className="text-2xl font-semibold">₹{goal}</div>

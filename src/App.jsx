@@ -9,17 +9,20 @@ function App() {
   const companyMain = company.main;
   const companyPitch = company.display;
   const companyEvent = company.event;
-
+  const companyOffers = company.offers;
   return (
     <>
       <Main logo={companyMain.logo} title={companyMain.title} location={companyMain.location} tags={companyMain.tags} />
-      <Pitch motto={companyPitch.motto} websiteUrl={companyPitch.websiteUrl} youtubeVideoID={companyPitch.youtubeVideoID} card={companyPitch.card}
-        goal={companyEvent.goal}
-        investors={companyEvent.investors}
-        length={companyEvent.length}
-        dateStart={companyEvent.dates.start}
-        dateEnd={companyEvent.dates.end}
-      />
+      <div>
+        <Pitch motto={companyPitch.motto} websiteUrl={companyPitch.websiteUrl} youtubeVideoID={companyPitch.youtubeVideoID} card={companyPitch.card}
+          goal={companyEvent.goal}
+          investors={companyEvent.investors}
+          length={companyEvent.length}
+          dateStart={companyEvent.dates.start}
+          dateEnd={companyEvent.dates.end}
+          companyOffers={companyOffers}
+        />
+      </div>
     </>
   )
 }
