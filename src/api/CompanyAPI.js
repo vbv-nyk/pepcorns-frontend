@@ -23,29 +23,29 @@ const companies = [{
                 color: "black",
             }
         }, {
-            name: "tag3",
+            name: "tag4",
             style: {
                 backgroundColor: "Green",
                 color: "white",
             }
         }, {
-            name: "tag3",
+            name: "tag5",
             style: {
                 backgroundColor: "Brown",
                 color: "white",
             }
         }, {
-            name: "tag3",
+            name: "tag6",
             style: {
                 backgroundColor: "red",
                 color: "white",
             }
         }]
     },
-    pitch: {
-        motto: "Stay Safe, Stay Strong!(ssssssss)",
+    display: {
+        motto: "We are an online brand focusing on fresh meat and ready-to-cook/eat products.",
         websiteUrl: "https://www.google.com",
-        youtubeEmbed: "https://www.youtube.com/embed/l2e5FoOx3WE",
+        youtubeVideoID: "l2e5FoOx3WE",
         card: "LAKSFASDAS"
     },
     event: {
