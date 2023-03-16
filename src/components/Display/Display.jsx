@@ -2,7 +2,7 @@ import Offers from "../Offers/Offers"
 import Event from "../subcomponents/Event"
 export default function Display({ motto, websiteUrl, youtubeVideoID, card, goal, investors, dateStart, dateEnd, length, companyOffers }) {
 
-    return (<section className="p-5 flex flex-col gap-4 bg-neutral-200">
+    return (<section className="p-5 flex flex-col gap-4">
         <div className='flex flex-col gap-1'>
             <div className="text-2xl font-bold">{motto}</div>
             <div className="flex gap-10 font-thin">

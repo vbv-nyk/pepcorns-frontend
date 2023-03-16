@@ -11,7 +11,7 @@ function App() {
   const companyEvent = company.event;
   const companyOffers = company.offers;
   return (
-    <>
+    <div className='bg-stone-300'>
       <Main logo={companyMain.logo} title={companyMain.title} location={companyMain.location} tags={companyMain.tags} />
       <div>
         <Pitch motto={companyPitch.motto} websiteUrl={companyPitch.websiteUrl} youtubeVideoID={companyPitch.youtubeVideoID} card={companyPitch.card}
@@ -23,7 +23,7 @@ function App() {
           companyOffers={companyOffers}
         />
       </div>
-    </>
+    </div>
   )
 }
 
