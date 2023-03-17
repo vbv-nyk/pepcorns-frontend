@@ -18,7 +18,7 @@ export default function Offers({ companyOffers }) {
             </div>
         </div>)
     })
-    return (<div className="aspect-1 overflow-scroll w-full col-start-3 col-end-4  p-10 bg-slate-100 flex flex-col  gap-8 border-b-2">
+    return (<div className="aspect-1 overflow-y-scroll w-full col-start-3 col-end-4  p-10 bg-slate-100 flex flex-col  gap-8 border-b-2">
         {offers}
     </div>)
 }

@@ -112,6 +112,27 @@ const companies = [{
     }, {
         name: "User 2",
         comment: "This is a great initiative"
+    },
+    {
+        name: "User 1",
+        comment: "I like the motto"
+    }, {
+        name: "User 2",
+        comment: "This is a great initiative"
+    },
+    {
+        name: "User 1",
+        comment: "I like the motto"
+    }, {
+        name: "User 2",
+        comment: "This is a great initiative"
+    },
+    {
+        name: "User 1",
+        comment: "I like the motto"
+    }, {
+        name: "User 2",
+        comment: "This is a great initiative"
     }
     ],
     updates: [{
