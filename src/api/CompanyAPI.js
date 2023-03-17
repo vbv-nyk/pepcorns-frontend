@@ -149,7 +149,7 @@ const companies = [{
                 link: "https://api.pepcorns.com/clientassets/icon1677185115701.zip"
             }, {
                 linkName: "Google Drive Link",
-                link: "drive.google.com"
+                link: "https://www.google.com"
             }]
     },
     offers: [

@@ -18,18 +18,21 @@ function App() {
   const companyDetails = company.details;
   const companyDiscussions = company.discussions;
   const companyUpdates = company.updates;
+  console.log(company.documents);
   const [current, setCurrent] = useState(1);
   return (
     <div className=''>
       <Main logo={companyMain.logo} title={companyMain.title} location={companyMain.location} tags={companyMain.tags} />
       <div>
         <Display motto={companyPitch.motto} websiteUrl={companyPitch.websiteUrl} youtubeVideoID={companyPitch.youtubeVideoID} card={companyPitch.card}
+          pdfUrl={company.pitch.pdfUrl}
           goal={companyEvent.goal}
           investors={companyEvent.investors}
           length={companyEvent.length}
           dateStart={companyEvent.dates.start}
           dateEnd={companyEvent.dates.end}
           companyOffers={companyOffers}
+          companyDocuments={company.documents}
         />
         <div className='p-5 flex flex-wrap gap-2 text-white font-bold'>
           <button onClick={() => setCurrent(1)} className='px-5 py-2 rounded-3xl bg-slate-600'>Pitch</button>
