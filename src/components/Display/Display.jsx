@@ -2,7 +2,6 @@ import Offers from "../Offers/Offers"
 import Event from "../subcomponents/Event"
 export default function Display({ motto, websiteUrl, youtubeVideoID, card, goal, investors, dateStart, dateEnd, length, companyOffers, pdfUrl, companyDocuments }) {
     const documents = companyDocuments.links.map((link, index) => {
-        console.log(companyDocuments.links);
         return (<a className="hover:underline font-bold" key={index} href={link.link}>
             {link.linkName}
         </a>)

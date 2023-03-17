@@ -18,7 +18,6 @@ function App() {
   const companyDetails = company.details;
   const companyDiscussions = company.discussions;
   const companyUpdates = company.updates;
-  console.log(company.documents);
   const [current, setCurrent] = useState(1);
   return (
     <div className=''>

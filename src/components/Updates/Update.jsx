@@ -1,5 +1,4 @@
 export default function Update({ companyUpdates }) {
-    console.log(companyUpdates);
     const updates = companyUpdates.map((update, index) => {
         return (
             <div key={index} className="flex items-center border-4 w-fit ">

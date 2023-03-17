@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 export default function Discussions({ companyDiscussions }) {
-    console.log(companyDiscussions);
     const [showTextField, setShowTextField] = useState(false);
     const discussions = companyDiscussions.map((discussion, index) => {
         return (<div className="flex flex-col border-4 p-4" key={index}>
