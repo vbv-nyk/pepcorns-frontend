@@ -12,7 +12,7 @@ function App() {
   const companyEvent = company.event;
   const companyOffers = company.offers;
   return (
-    <div className='bg-stone-300'>
+    <div className=''>
       <Main logo={companyMain.logo} title={companyMain.title} location={companyMain.location} tags={companyMain.tags} />
       <div>
         <Display motto={companyPitch.motto} websiteUrl={companyPitch.websiteUrl} youtubeVideoID={companyPitch.youtubeVideoID} card={companyPitch.card}

@@ -64,8 +64,13 @@ const companies = [{
                 name: "Highlights",
                 title: "The existing meat supply ecosystem has multiple challenges",
                 contents: ["Only profitable D2C brand in meats in India with a high return on capital efficiency.", "Backed by prolific angel investors like Amit Burman (Dabur chairman), SIDBI VC, Jitendra Gupta of Jupiter, Om Manchanda MD of Dr. Lal path lab, and many others.", "100% farm-integrated supply chain to bring transparency and traceability of fresh chicken, mutton, fish, and Seafood.", "Started by Deepanshu Manchanda who  conceptualising the category of meats by co-founding Licious the first D2C brand of meats", "Technology-enabled businesses focusing on end to end farm to fork"],
-                imageURLs: ["https://ucarecdn.com/587800c6-340f-4330-a186-23fef8798de7/WemakeSkincareIntelligent101.png", "https://ucarecdn.com/16964edd-e771-4538-a964-fdc840d88882/WemakeSkincareIntelligent102.png", "https://ucarecdn.com/6b3443bf-ac22-41d4-b3ac-92639075c6df/WemakeSkincareIntelligent103.png"]
-            },
+                imageURLs: ["https://ucarecdn.com/c396d70e-1447-41c7-9130-25531b8aa494/4.png", "https://ucarecdn.com/31041e82-27da-48f9-ace3-f50c56a2bb20/17.png", "https://ucarecdn.com/219b425b-c146-42a1-86dc-d1a08fd4853a/zap.gif"]
+            }, {
+                name: "Highlights",
+                title: "The existing meat supply ecosystem has multiple challenges",
+                contents: ["Only profitable D2C brand in meats in India with a high return on capital efficiency.", "Backed by prolific angel investors like Amit Burman (Dabur chairman), SIDBI VC, Jitendra Gupta of Jupiter, Om Manchanda MD of Dr. Lal path lab, and many others.", "100% farm-integrated supply chain to bring transparency and traceability of fresh chicken, mutton, fish, and Seafood.", "Started by Deepanshu Manchanda who  conceptualising the category of meats by co-founding Licious the first D2C brand of meats", "Technology-enabled businesses focusing on end to end farm to fork"],
+                imageURLs: ["https://ucarecdn.com/5b7fa674-ce46-4957-84dd-529c4f4c00ce/dsf.PNG", "https://ucarecdn.com/16964edd-e771-4538-a964-fdc840d88882/WemakeSkincareIntelligent102.png", "https://ucarecdn.com/6b3443bf-ac22-41d4-b3ac-92639075c6df/WemakeSkincareIntelligent103.png"]
+            }
         ]
     },
     details: {
