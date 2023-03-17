@@ -75,14 +75,24 @@ const companies = [{
     },
     details: {
         people: [{
-            name: "Vaibhav Nayak",
-            position: "College student",
+            name: "Deepanshu Manchanda",
+            position: "Co-Founder",
+            imageURL: "https://api.pepcorns.com/clientassets/icon1677227151749.png",
             handles: {
-                linkedin: "",
-                facebook: "",
-                twitter: "",
+                linkedin: "https://www.linkedin.com/in/deepanshumanchanda/",
+                facebook: "https://www.linkedin.com/in/deepanshumanchanda/",
+                twitter: "https://www.linkedin.com/in/deepanshumanchanda/",
             }
-        }],
+        }, {
+            name: "Shruti Gochhwal",
+            position: "Co-Founder",
+            imageURL: "https://api.pepcorns.com/clientassets/icon1677227653370.avif",
+            handles: {
+                linkedin: "https://www.linkedin.com/in/deepanshumanchanda/",
+                facebook: "https://www.linkedin.com/in/deepanshumanchanda/",
+                twitter: "https://www.linkedin.com/in/deepanshumanchanda/",
+            }
+        },],
         faq: [{
             question: "What is the exit possibility?",
             answer: "For CSOP holders Exit would be given in the next 3 years, while for SAFE investors would be given in IPO or sellout to a strategic player in the category.",
