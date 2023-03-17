@@ -13,7 +13,7 @@ export default function Pitch({ pdfUrl, sections }) {
             <div className="grid grid-cols-1 gap-2">{images}</div>
         </div>)
     })
-    return (<div className="h-screen overflow-scroll flex flex-col p-10">
+    return (<div className="h-screen p-5 m-5 border overflow-scroll flex flex-col md:p-10">
         <div className="text-2xl font-bold">Deck Info</div>
         <div className="flex flex-col gap-5">{pitches}</div>
     </div>)
