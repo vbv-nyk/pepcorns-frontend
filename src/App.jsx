@@ -6,6 +6,7 @@ import Pitch from './components/Pitch/Pitch';
 import { useState } from 'react';
 import Details from './components/Details/Details';
 import Discussions from './components/Discussions/Discussions';
+import Update from './components/Updates/Update';
 
 function App() {
   //fetch request to the backend by name to fetch the required company, here I'm using the demo api data I created 
@@ -16,6 +17,7 @@ function App() {
   const companyOffers = company.offers;
   const companyDetails = company.details;
   const companyDiscussions = company.discussions;
+  const companyUpdates = company.updates;
   const [current, setCurrent] = useState(1);
   return (
     <div className=''>
@@ -36,12 +38,12 @@ function App() {
           <button onClick={() => setCurrent(4)} className='px-5 py-2 rounded-3xl bg-slate-600'>Updates</button>
         </div>
       </div>
-      <div className='h-screen p-5 m-5 border overflow-y-scroll flex flex-col md:p-10'>
+      <div className='h-screen p-5 m-5 border-2 overflow-y-scroll flex flex-col md:p-10'>
         {current === 1 && <Pitch pdfUrl={company.pitch.pdfUrl} sections={company.pitch.sections} />}
         {current === 2 && <Details companyDetails={companyDetails} />}
         {current === 3 && <Discussions companyDiscussions={companyDiscussions} />}
+        {current === 4 && <Update companyUpdates={companyUpdates} />}
       </div>
-
     </div>
   )
 }

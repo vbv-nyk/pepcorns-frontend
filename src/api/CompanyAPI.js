@@ -140,7 +140,7 @@ const companies = [{
         announcement: "AMA session 25th feb @5pm : See you all there!"
     }, {
         date: "2023-03-25",
-        announcement: "We would like to thank everyone for taking part in this, we hope to bring you happiness."
+        announcement: "We would like to thank everyone for taking part in this, we will make you happy."
     }],
     documents: {
         links: [

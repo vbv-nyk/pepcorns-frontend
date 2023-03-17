@@ -5,7 +5,7 @@ export default function Main({ logo, title, location, tags }) {
 
     return (
         <>
-            <header className="flex items-center p-5 text-white  gap-4 bg-stone-700" >
+            <header className="flex flex-wrap items-center p-5 text-white  gap-4 bg-stone-700" >
                 <img className="h-40" src={logo} />
                 <div className="flex flex-col gap-3 ">
                     <div>

@@ -18,7 +18,7 @@ export default function Display({ motto, websiteUrl, youtubeVideoID, card, goal,
         </div>
         <div className="md:grid grid-cols-3">
             <div className="col-start-1 col-end-3">
-                <iframe className='w-full aspect-1 md:aspect-2' src={`https://www.youtube.com/embed/${youtubeVideoID}`} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className='w-full aspect-1 md:aspect-2' src={`https://www.youtube.com/embed/${youtubeVideoID}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             <Offers companyOffers={companyOffers} />
             <Event goal={goal} investors={investors} dateStart={dateStart} dateEnd={dateEnd} length={length} />

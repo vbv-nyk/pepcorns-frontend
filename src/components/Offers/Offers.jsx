@@ -14,7 +14,7 @@ export default function Offers({ companyOffers }) {
                 <div className="">{tnc}</div>
             </div>
             <div className="flex flex-col gap-2">
-                <buttom className="border cursor-pointer w-fit px-10 py-5 bg-neutral-500 font-bold text-white ">₹{companyOffer.price}</buttom>
+                <button className="border cursor-pointer w-fit px-10 py-5 bg-neutral-500 font-bold text-white ">₹{companyOffer.price}</button>
             </div>
         </div>)
     })
